@@ -1,0 +1,27 @@
+.oveln
+{
+    text-decoration: overline;
+}
+div div div div
+{
+    overflow: hidden;
+}
+div div div div:not(#output,#operation)
+{
+    transition: transform .4s,background-color .4s;
+    cursor: pointer;
+}
+div div div div:hover:not(#output,#operation,#ms1)
+{
+    background-color: silver;
+    transform: scale(0.9);
+}
+td
+{
+    cursor: pointer;
+    text-align: center;
+}
+#operation
+{
+    height: 40px;
+}
