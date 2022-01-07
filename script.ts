@@ -113,6 +113,7 @@ function pressOperator(op:string)
         else{
             document.getElementById('operation').innerHTML= document.getElementById('operation').innerHTML+=op;
             flag=false;
+            brscFlag = false;
         }
         return ;
     }
@@ -137,6 +138,7 @@ function pressOperator(op:string)
         console.log("op na else"+operation);
     }
     input="";
+    brscFlag = false;
 }
 function brsOpn()
 {
